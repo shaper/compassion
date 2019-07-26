@@ -1,42 +1,13 @@
 {
-  "_args": [
-    [
-      "@0xcda7a/empathy@0.0.9",
-      "/home/wkorman/workspace/arcs/devtools"
-    ]
-  ],
-  "_development": true,
-  "_from": "@0xcda7a/empathy@0.0.9",
-  "_id": "@0xcda7a/empathy@0.0.9",
-  "_inBundle": false,
-  "_integrity": "sha512-ir+gg22ZfMuUz5XGCafK8bklE5SXmWEGkmChsjxjZ3sefBvCZVCajD+qGOnC37JViBNBx+B88ZF1i6nK4yc8jg==",
-  "_location": "/@0xcda7a/empathy",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "@0xcda7a/empathy@0.0.9",
-    "name": "@0xcda7a/empathy",
-    "escapedName": "@0xcda7a%2fempathy",
-    "scope": "@0xcda7a",
-    "rawSpec": "0.0.9",
-    "saveSpec": null,
-    "fetchSpec": "0.0.9"
-  },
-  "_requiredBy": [
-    "#DEV:/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@0xcda7a/empathy/-/empathy-0.0.9.tgz",
-  "_spec": "0.0.9",
-  "_where": "/home/wkorman/workspace/arcs/devtools",
-  "author": {
-    "name": "The Polymer Authors"
+  "name": "@shaper42/compassion",
+  "version": "1.0.0",
+  "description": "A fork of https://www.npmjs.com/package/@0xcda7a/empathy to allow tweaking things like logging and such.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
   "bin": {
     "empathy": "bin/empathy"
-  },
-  "bugs": {
-    "url": "https://github.com/PolymerLabs/empathy/issues"
   },
   "dependencies": {
     "@types/babel-core": "^6.25.3",
@@ -71,7 +42,6 @@
     "vinyl-fs": "^3.0.2",
     "whatwg-url": "^6.4.0"
   },
-  "description": "Installing NPM modules for your front-end project? Pathify them with Empathy.",
   "devDependencies": {
     "hd-html": "github:polymerlabs/hd-html#master",
     "polymer-build": "github:polymer/polymer-build#master",
@@ -81,16 +51,20 @@
     "lib/",
     "bin/"
   ],
-  "homepage": "https://github.com/PolymerLabs/empathy#readme",
   "license": "BSD-3-Clause",
-  "main": "lib/index.js",
-  "name": "@0xcda7a/empathy",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PolymerLabs/empathy.git"
-  },
   "scripts": {
     "prepublish": "tsc"
   },
-  "version": "0.0.9"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaper/compassion.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/shaper/compassion/issues"
+  },
+  "homepage": "https://github.com/shaper/compassion#readme"
 }
