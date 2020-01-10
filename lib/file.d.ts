@@ -1,5 +1,3 @@
-/// <reference types="vinyl" />
-/// <reference types="node" />
 /**
  * @license
  * Copyright (c) 2018 The Polymer Project Authors. All rights reserved.
@@ -35,6 +33,6 @@ export declare class SyntheticFileMap {
     stopWatchingFilesystem(): void;
     hasFile(path: string): Promise<boolean>;
     readFile(path: string): Promise<File>;
-    private mappedPath(path);
-    private onFsEvent(_eventType, path);
+    private mappedPath;
+    private onFsEvent;
 }

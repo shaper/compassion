@@ -1,18 +1,35 @@
 {
   "name": "@shaper42/compassion",
-  "version": "1.0.0",
-  "description": "A fork of https://www.npmjs.com/package/@0xcda7a/empathy to allow tweaking things like logging and such.",
+  "version": "1.0.1",
+  "description": "Installing NPM modules for your front-end project? Pathify them with Compassion.",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
+  "bin": "bin/empathy",
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
   },
-  "bin": {
-    "empathy": "bin/empathy"
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaper/compassion.git"
   },
+  "keywords": [],
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/shaper/compassion/issues"
+  },
+  "homepage": "https://github.com/shaper/compassion#readme",
   "dependencies": {
     "@types/babel-core": "^6.25.3",
     "@types/babel-traverse": "^6.25.3",
     "@types/babel-types": "^7.0.1",
+    "@types/chai": "4.1.7",
+    "@types/chai-subset": "1.3.2",
     "@types/command-line-args": "^4.0.2",
     "@types/find-root": "^1.1.1",
     "@types/fs-extra": "^5.0.1",
@@ -36,6 +53,7 @@
     "fs-extra": "^5.0.0",
     "is-windows": "^1.0.2",
     "path-is-inside": "^1.0.2",
+    "polymer-analyzer": "3.1.2",
     "resolve": "^1.6.0",
     "through2": "^2.0.3",
     "vinyl": "^2.1.0",
@@ -43,28 +61,6 @@
     "whatwg-url": "^6.4.0"
   },
   "devDependencies": {
-    "hd-html": "github:polymerlabs/hd-html#master",
-    "polymer-build": "github:polymer/polymer-build#master",
     "typescript": "^2.7.2"
-  },
-  "files": [
-    "lib/",
-    "bin/"
-  ],
-  "license": "BSD-3-Clause",
-  "scripts": {
-    "prepublish": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shaper/compassion.git"
-  },
-  "keywords": [],
-  "author": {
-    "name": "The Polymer Authors"
-  },
-  "bugs": {
-    "url": "https://github.com/shaper/compassion/issues"
-  },
-  "homepage": "https://github.com/shaper/compassion#readme"
+  }
 }

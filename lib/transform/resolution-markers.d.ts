@@ -1,4 +1,3 @@
-/// <reference types="node" />
 /**
  * @license
  * Copyright (c) 2018 The Polymer Project Authors. All rights reserved.

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es2016",
+      "esnext.asynciterable"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "parse5": [
+        "node_modules/@types/parse5",
+        "*"
+      ]
+    },
+  },
+  "include": [
+    "custom-types/**/*.ts",
+    "src/**/*"
+  ]
+}
